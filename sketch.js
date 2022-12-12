@@ -27,7 +27,7 @@ function draw()
         point(random(0,width),random(0,height-100));
         push();
         //draw all the circles using the function. Drawing 30 instead of just one makes it more visually appealing
-        noisyCircle((width/2) +(10 * (i *0.2)), (height/2) + map(noise(i),0,1,0,20),8,0.45,2,input*1.2,100,350)
+        noisyCircle(450 +(10 * (i *0.2)), 400 + map(noise(i),0,1,0,20),8,0.45,2,input*1.2,100,350)
         pop(); 
     }
     input +=0.005;
